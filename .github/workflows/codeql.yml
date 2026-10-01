@@ -45,7 +45,7 @@ jobs:
       uses: actions/checkout@9bb56186c3b09b4f86b1c65136769dd318469633
 
     - name: Initialize CodeQL
-      uses: github/codeql-action/init@3ab4101902695724f9365a384f86c1074d94e18c
+      uses: github/codeql-action/init@2892aa5e19bbd11bc0cff5427e3b750a04d9e3c2
       with:
         languages: ${{ matrix.language }}
         config-file: ./.github/codeql-config.yml
